@@ -8,3 +8,12 @@
   background-color: #23BBF8;
 
 }
+.text-aling{
+  align-items: center;
+
+}
+
+.for-flex{
+  display: flex;
+  justify-content: space-around;
+}
