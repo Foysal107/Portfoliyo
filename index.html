@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Roboto+Slab:wght@100..900&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    </head>
-    <title>Portfoliyo</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/060a128631.js" crossorigin="anonymous"></script>
+</head>
+<title>Portfoliyo</title>
+</head>
 
-    <body class="roboto-slab-font">
-        <section class="">
+<body class="roboto-slab-font">
+
+    <section class="bg-gray-100 min-h-screen">
+        <div class="px-[150px] py-[120px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-[214px] justify-center items-center">
+                <div class="">
+                    <h1 class="uppercase font-bebas text-[128px] leading-[90%] font-normal">
+                        HI, i am FOYSAL.
+                    </h1>
+                    <p class="text-gray-400 pt-4 pb-[42px] text-[18px]">
+                        A Sydney based front-end developer passionate about building
+                        accessible and user friendly websites.
+                    </p>
+                    <div class="flex justify-start items-center gap-2">
+                        <button class="bg-[#23BBF8] px-[52px] py-[16px] text-white rounded-[10px]">
+                            Contact
+                        </button>
+                        <button class="bg-[#23BBF8] h-[54px] w-[54px] rounded-full">
+                            <i class="fa-brands fa-linkedin-in text-white text-6"></i>
+                        </button>
+                        <button class="bg-[#23BBF8] h-[54px] w-[54px] rounded-full">
+                            <i class="fa-brands fa-github text-white text-6"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="relative h-[880px] w-[588px] flex text-aling justify-center ">
+                    <div class="absolute bottom-0 rounded-[76px] bg-[#23BBF8] h-[620px] w-full"></div>
+                    <div class="absolute top-0">
+                        <img class="h-[620px] min-w-full" src="" alt="banner image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="">
             <section class="bg-slate-300 flex  gap-6 justify-center text-aling  min-h-screen">
 
 
@@ -44,111 +79,225 @@
                         <img class="h-20vh md:max-w-xs lg:max-w-sm rounded-xl" src="background.jpg" alt="" srcset="">
                     </div>
                 </section>
-            </section>
-            <section class="  min-h-screen  border flex flex-col p-7 m-7 gap-10   justify-center">
-                <div class="">
-                    <h1 class="  lg:text-3xl ">FEATURED PROJECTS</h1>
-                    <P class="text-gray-400">Here are some of the selected projects that showcase my passion for
-                        front-end
-                        development.
-                    </P>
-                </div>
+            </section> -->
+    <section class="  min-h-screen flex flex-col justify-center  bg-gray-200 p-6 ">
 
-                <div class="lg:flex  lg:text-aling justify-center   gap-6  ">
-                    <div class="border lg:flex lg:flex-col justify-center text-aling lg:p-5 ">
-                        <img src="fetures.jpeg" alt="" srcset="">
-                        <h1 class="  lg:text-xl">Promotional landing page for our favorite show</h1>
-                        <p class="text-gray-400"> Teamed up with a designer to breathe life into a promotional webpage
-                            for our beloved
-                            show, Adventure Time.
-                            Delivered a fully responsive design with dynamic content capabilities, </p>
-                    </div>
+        <div class=" ">
+            <h2 class="lg:text-6xl mb-6">
+                FEATURED PROJECTS
+            </h2>
+            <P class="mb-6">
+                Here are some of the selected projects that showcase my passion for font-end developer
 
+            </P>
 
-                    <div class=" lg:flex   ">
-                        <div class="border md:mb-6  lg:flex lg:flex-col justify-center text-aling ">
-                            <img src="features2.jpeg" alt="" srcset="">
-                            <h1 class="lg:text-xl">Promotional landing page for our favorite show</h1>
-                            <p class="text-gray-400">Teamed up with a designer to breathe life into a promotional
-                                webpage for our
-                                beloved show, Adventure
-                                Time. Delivered a fully responsive design with dynamic content capabilities, </p>
-                        </div>
+            <div class="grid grid-cols-1  md:grid-cols-3 gap-6">
 
-                    </div>
-                    <div class=" flex ">
-                        <div class="border ">
-                            <img src="feature3.jpeg" alt="" srcset="">
-                            <h1 class="lg:text-xl">Promotional landing page for our favorite show</h1>
-                            <p class="text-gray-400">Teamed up with a designer to breathe life into a promotional
-                                webpage for our
-                                beloved show, Adventure
-                                Time. Delivered a fully responsive design with dynamic content capabilities, </p>
-                        </div>
-
-                    </div>
-
-            </section>
-            <section class=" bg-green-900 pb-10 min-h-screen lg:flex lg:flex-col  justify-center text-aling lg:gap-10">
-                <div class="">
-                    <h2 class=" font-bold lg:text-2xl  lg:mb-5">MY SERVICES</h2>
-                    <P class="text-gray-400 lg:mb-5">Here are some of the selected projects that showcase my passion for
-                        front-end
-                        development.</P>
-                </div>
-
-                <div class="max-w-6xl ">
-                    <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6">
-
-                        <!-- Card 1 -->
-                        <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-                            <img src="9414296.png" alt="Profile 1" class="  rounded-full object-cover mb-4">
-                            <h2 class="text-lg font-semibold text-gray-800">Web Development</h2>
-                            <p class="text-gray-600 text-sm">Blog E-Commerce</p>
-                        </div>
-
-                        <!-- Card 2 -->
-                        <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-                            <img src="mic.webp" alt="Profile 2" class="   object-cover mb-4">
-                            <h2 class="text-lg font-semibold text-gray-800">Sound Design</h2>
-                            <p class="text-gray-600 text-sm">Blog E-Commerce</p>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-                            <img src="uiux.jpg" alt="Profile 3" class=" rounded-full object-cover mb-4">
-                            <h2 class="text-lg font-semibold text-gray-800">UI/UX Design</h2>
-                            <p class="text-gray-600 text-sm">Blog E-Commerce</p>
-                        </div>
-
-                        <!-- Card 4 -->
-                        <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-                            <img src="game.png" alt="Profile 4" class="rounded-full object-cover mb-4">
-                            <h2 class="text-lg font-semibold text-gray-800">Game Desing</h2>
-                            <p class="text-gray-600 text-sm">Blog E-Commerce</p>
-                        </div>
-
-                        <!-- Card 5 -->
-                        <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-                            <img src="photography .webp" alt="Profile 5" class=" rounded-full object-cover mb-4">
-                            <h2 class="text-lg font-semibold text-gray-800">photography</h2>
-                            <p class="text-gray-600 text-sm">Blog E-Commerce</p>
-                        </div>
-
-                        <!-- Card 6 -->
-                        <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
-
-                            <h2 class="text-lg font-semibold text-gray-800">Advertising</h2>
-                            <p class="text-gray-600 text-sm">DevOps Engineer</p>
-                        </div>
-
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="feature3.jpeg" alt="Card image 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2">Promotional landing page for our favorite show</h2>
+                        <p class="text-gray-600 mb-4">Teamed up with a designer to breathe life into a promotional
+                            webpage for our beloved show, Adventure Time. Delivered a fully responsive design with
+                            dynamic content capabilities, </p>
+                        <a href="#" class="text-blue-500 hover:underline">view →</a>
                     </div>
                 </div>
 
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="fetures.jpeg" alt="Card image 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2">Promotional landing page for our favorite show</h2>
+                        <p class="text-gray-600 mb-4">Teamed up with a designer to breathe life into a promotional
+                            webpage for our beloved show, Adventure Time. Delivered a fully responsive design with
+                            dynamic content capabilities, .</p>
+                        <a href="#" class="text-blue-500 hover:underline">view →</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="features2.jpeg" alt="Card image 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2">Promotional landing page for our favorite show</h2>
+                        <p class="text-gray-600 mb-4">Teamed up with a designer to breathe life into a promotional
+                            webpage for our beloved show, Adventure Time. Delivered a fully responsive design with
+                            dynamic content capabilities, </p>
+                        <a href="#" class="text-blue-500 hover:underline">view →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 
-            </section>
-            <section class="lg:m-9 min-h-screen ">
+    </section>
+    <section class=" p-6  min-h-screen lg:flex lg:flex-col  justify-center lg:gap-10">
+        <div class="">
+            <h2 class=" font-bold lg:text-6xl  lg:mb-6">MY SERVICES</h2>
+            <P class="text-gray-400 lg:mb-6">Here are some of the selected projects that showcase my passion for
+                front-end
+                development.</P>
+        </div>
+
+        <div class=" ">
+            <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6">
+
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
+                    <img src="9414296.png" alt="Profile 1" class="  rounded-full object-cover mb-4">
+                    <h2 class="text-lg font-semibold text-gray-800">Web Development</h2>
+                    <p class="text-gray-600 text-sm">Blog E-Commerce</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
+                    <img src="mic.webp" alt="Profile 2" class="   object-cover mb-4">
+                    <h2 class="text-lg font-semibold text-gray-800">Sound Design</h2>
+                    <p class="text-gray-600 text-sm">Blog E-Commerce</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
+                    <img src="uiux.jpg" alt="Profile 3" class=" rounded-full object-cover mb-4">
+                    <h2 class="text-lg font-semibold text-gray-800">UI/UX Design</h2>
+                    <p class="text-gray-600 text-sm">Blog E-Commerce</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
+                    <img src="game.png" alt="Profile 4" class="rounded-full object-cover mb-4">
+                    <h2 class="text-lg font-semibold text-gray-800">Game Desing</h2>
+                    <p class="text-gray-600 text-sm">Blog E-Commerce</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
+                    <img src="photography .webp" alt="Profile 5" class=" rounded-full object-cover mb-4">
+                    <h2 class="text-lg font-semibold text-gray-800">photography</h2>
+                    <p class="text-gray-600 text-sm">Blog E-Commerce</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center">
+
+                    <h2 class="text-lg font-semibold text-gray-800">Advertising</h2>
+                    <p class="text-gray-600 text-sm">DevOps Engineer</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class="bg-gray-200">
+        <section class=" p-6">
+            <!-- Heading -->
+            <div class=" mb-12">
+                <h2 class="text-6xl font-bold text-gray-900">RECOMMENDATIONS</h2>
+                <p class="mt-2 text-gray-500 max-w-2xl ">
+                    Here are some of the selected projects that showcase my passion for front-end development.
+                </p>
+            </div>
+
+            <!-- Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <!-- Card 1 -->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+                    <div class="flex justify-center text-yellow-400 mb-2">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <img src="https://randomuser.me/api/portraits/men/1.jpg" class="w-16 h-16 rounded-full mx-auto mb-3"
+                        alt="user">
+                    <h3 class="font-semibold text-gray-800">James Gouse</h3>
+                    <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+                    <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+                    <p class="text-sm text-gray-500">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna
+                        Viverra Morbi...
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+                    <div class="flex justify-center text-yellow-400 mb-2">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                        class="w-16 h-16 rounded-full mx-auto mb-3" alt="user">
+                    <h3 class="font-semibold text-gray-800">James Gouse</h3>
+                    <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+                    <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+                    <p class="text-sm text-gray-500">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna
+                        Viverra Morbi...
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+                    <div class="flex justify-center text-yellow-400 mb-2">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <img src="https://randomuser.me/api/portraits/men/3.jpg" class="w-16 h-16 rounded-full mx-auto mb-3"
+                        alt="user">
+                    <h3 class="font-semibold text-gray-800">James Gouse</h3>
+                    <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+                    <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+                    <p class="text-sm text-gray-500">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna
+                        Viverra Morbi...
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+                    <div class="flex justify-center text-yellow-400 mb-2">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <img src="https://randomuser.me/api/portraits/men/4.jpg" class="w-16 h-16 rounded-full mx-auto mb-3"
+                        alt="user">
+                    <h3 class="font-semibold text-gray-800">James Gouse</h3>
+                    <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+                    <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+                    <p class="text-sm text-gray-500">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna
+                        Viverra Morbi...
+                    </p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center border hover:shadow-lg transition">
+                    <div class="flex justify-center text-yellow-400 mb-2">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <img src="https://randomuser.me/api/portraits/men/5.jpg" class="w-16 h-16 rounded-full mx-auto mb-3"
+                        alt="user">
+                    <h3 class="font-semibold text-gray-800">James Gouse</h3>
+                    <p class="text-sm text-gray-500 mb-3">Graphic Designer</p>
+                    <h4 class="font-semibold text-gray-800 mb-1">Great Quality!</h4>
+                    <p class="text-sm text-gray-500">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna
+                        Viverra Morbi...
+                    </p>
+                </div>
+            </div>
+
+            <!-- Dots -->
+            <div class="flex justify-center mt-6 space-x-2">
+                <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+                <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+            </div>
+        </section>
+    
+    </section>
+
+    <!-- <section class="lg:m-9 min-h-screen ">
                 <p></p>
                 <div>
                     <h2 class="text-cyan-400  md:text-xl lg:text-3xl lg:mb-5 ">
@@ -245,325 +394,329 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class=" lg:m-9 min-h-screen">
-                <div>
+            </section> -->
+    <section class=" p-6 min-h-screen bg-blue-200 ">
+        <div>
 
-                    <h1 class=" md:text-xl lg:text-3xl lg:mb-3">EDUCATION</h1>
-                    <P class="text-gray-400">Here are some of the selected projects that showcase my passion for
-                        front-end development.</P>
-                </div>
-
-
-
-
-
-                <div class="shadow-xl mt-5 ">
-                    <div class="hero ">
-                        <div class="hero-content flex-col lg:flex-row-reverse">
-                            <div class="text-center lg:text-left">
-                                <h1 class="md:text-xl lg:text-5xl font-bold">University of Toronto!</h1>
-                                <p>Student <span class="button-bg"> Jan 1016 - Dec 2021</span></p>
-
-                            </div>
-                            <div class="card  w-2/3 ">
-                                <div class="card-body">
-                                    <h1 class="md:text-xl lg:text-3xl">
-                                        Certificate of web training
-                                    </h1>
-                                    <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Amet dapibus nibh ut
-                                        faucibus nunc, egestas id
-                                        amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere
-                                        fusce tempus etiam et
-                                        pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing
-                                        elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar
-                                        quisque sed amet, nulla
-                                        nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-                                        risus enim neque eget dui.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="shadow-xl mt-5 ">
-                    <div class="hero ">
-                        <div class="hero-content flex-col lg:flex-row-reverse">
-                            <div class="text-center lg:text-left">
-                                <h1 class="md:text-xl lg:text-5xl font-bold">University of Toronto!</h1>
-                                <p>Student <span class="button-bg"> Jan 1016 - Dec 2021</span></p>
-
-                            </div>
-                            <div class="card  w-2/3 ">
-                                <div class="card-body">
-                                    <h1 class="md:text-xl lg:text-3xl">
-                                        Certificate of web training
-                                    </h1>
-                                    <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Amet dapibus nibh ut
-                                        faucibus nunc, egestas id
-                                        amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere
-                                        fusce tempus etiam et
-                                        pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing
-                                        elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar
-                                        quisque sed amet, nulla
-                                        nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-                                        risus enim neque eget dui.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1 class=" md:text-xl lg:text-6xl lg:mb-6">EDUCATION</h1>
+            <P class="text-black mb-6">Here are some of the selected projects that showcase my passion for
+                front-end development.</P>
+        </div>
 
 
 
 
 
+        <div class="shadow-xl mt-5 gap-6 bg-white ">
+            <div class="hero ">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                    <div class="text-center lg:text-left">
+                        <h1 class="md:text-xl lg:text-5xl font-bold">University of Toronto!</h1>
+                        <p>Student <span class="button-bg"> Jan 1016 - Dec 2021</span></p>
 
-                <div class="shadow-xl">
-                    <div class="hero ">
-                        <div class="hero-content flex-col lg:flex-row-reverse">
-                            <div class="text-center lg:text-left">
-                                <h1 class="md:text-xl lg:text-5xl font-bold">University of Toronto!</h1>
-                                <p>Student <span class="button-bg"> Jan 1016 - Dec 2021</span></p>
-
-                            </div>
-                            <div class="card  w-2/3 ">
-                                <div class="card-body">
-                                    <h1 class="md:text-xl lg:text-3xl">
-                                        Certificate of web training
-                                    </h1>
-                                    <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Amet dapibus nibh ut
-                                        faucibus nunc, egestas id
-                                        amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere
-                                        fusce tempus etiam et
-                                        pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing
-                                        elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar
-                                        quisque sed amet, nulla
-                                        nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
-                                        risus enim neque eget dui.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-
-
-            </section>
-            <section class="lg:m-9  ">
-                <div class="md:text-aling">
-                    <h1 class="lg:text-5xl md:text-xl ">PORTFOLIO</h1>
-                    <P class="text-gray-400">Here are some of the selected projects that showcase my passion for
-                        front-end
-                        development.</P>
-                </div>
-
-                <div
-                    class="grid grid-cols-1 justify-center md:gap-5  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                    <!-- 20 image blocks -->
-                    <div class="w-full md:w-10/12 aspect-square overflow-hidden rounded-md">
-                        <img src="1.jpeg" alt="Image 1" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="2.jpg" alt="Image 2" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="3.jpeg" alt="Image 3" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="4.jpg" alt="Image 4" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="5.webp" alt="Image 5" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="6.jpg" alt="Image 6" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="7.png" alt="Image 7" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="10.png" alt="Image 8" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="12.avif" alt="Image 9" class="lg:w-full lg:h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="14.jpg" alt="Image 10" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="17.png" alt="Image 11" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="16.png" alt="Image 12" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="19.webp" alt="Image 13" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="18.png" alt="Image 14" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="20.jpg" alt="Image 15" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="5.webp" alt="Image 16" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="8.jpeg" alt="Image 17" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="9.jpeg" alt="Image 18" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="21.jpg" alt="Image 19" class="w-full h-full object-cover" />
-                    </div>
-                    <div class="w-full aspect-square overflow-hidden rounded-md">
-                        <img src="11.jpg" alt="Image 20" class="w-full h-full object-cover" />
-                    </div>
-                </div>
-
-
-            </section>
-            <section class="  ">
-                <div>
-                    <h1 class="lg:text-4xl md:xl">BLOG</h1>
-                    <p class="text-gray-400">Here are some of the selected projects that showcase my passion for
-                        front-end
-                        development.</p>
-                </div>
-                <div class="lg:flex justify-around p-5 m-5 ">
-                    <div class="card bg-base-100  shadow-sm">
-                        <figure>
-                            <img src="2.jpg" alt="Shoes" />
-                        </figure>
+                    <div class="card  w-2/3 ">
                         <div class="card-body">
-                            <h2 class="card-title">How to make web tempates</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                                urna </p>
-                            <div class="card-actions justify-end">
-                                <p><a class="text-cyan-300 " href="">view </a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100  shadow-sm  ">
-                        <figure>
-                            <img src="3.jpeg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <h2 class="card-title"> How to make web tempates</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a
-                                urna </p>
-                            <div class="card-actions ">
-                                <a class="text-cyan-300" href="">view</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card bg-base-100  shadow-sm">
-                        <figure>
-                            <img src="6.jpg" alt="Shoes" />
-                        </figure>
-                        <div class="card-body">
-                            <h2 class="card-title">How to make web tempates</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions
-                                parts</p>
-                            <div class="card-actions ">
-                                <a class="text-cyan-300" href="">View</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="lg:flex text-aling min-h-screen m-5">
-
-                <div class="text-aling">
-                    <h1 class="text-2xl lg:text-3xl">ABOUT ME </h1>
-                    <p class="text-lg text-center ">I am a front-end developer based in Sydney. Has Mechanical
-                        Engineering
-                        background.
-                    </p>
-                    <p class="text-center text-gray-400">I am a front-end developer based in Sydney looking for exciting
-                        opportunities. Has Mechanical Engineering
-                        background. Likes to focus on accessibility when developing. Passionate and curious about
-                        solving problems.
-                        Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I
-                        enjoy playing
-                        football, photography and playing Valorant. Learning more to improve skill.</p>
-
-                </div>
-                <div>
-                    <img class="rounded-xl " src="profile.jpg" alt="" srcset="">
-                </div>
-            </section>
-
-            <section>
-                <div class=" bg-base-200 p-5">
-                    <div class=" flex flex-col lg:flex-row md:gap-10 text-aling">
-                        <img src="footer.png" class="  rounded-lg shadow-2xl" />
-                        <div class="">
-                            <h1 class="lg:text-5xl font-bold">LET'S CONNECT!</h1>
-                            <p class="py-6">
-                                say hello at foysalmiah8443@gmail.com <br>
-                                For more info, here's my resume
+                            <h1 class="md:text-xl lg:text-3xl">
+                                Certificate of web training
+                            </h1>
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Amet dapibus nibh ut
+                                faucibus nunc, egestas id
+                                amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere
+                                fusce tempus etiam et
+                                pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet,
+                                consectetur adipiscing
+                                elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar
+                                quisque sed amet, nulla
+                                nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
+                                risus enim neque eget dui.
                             </p>
-
-                            <div class="flex justify-center gap-5 mb-5">
-                                <div>
-                                    <img class="w-10 rounded-full" src="cartoon-phone-icon-download_2690093.png!w700wp"
-                                        alt="" srcset="">
-                                </div>
-                                <div><input class="lg:w-56 rounded-xl h-10" type="text"></div>
-                            </div>
-                            <div class="flex justify-center gap-5">
-                                <div>
-                                    <img class="w-13 rounded-full" src="images.png" alt="" srcset="">
-                                </div>
-                                <div>
-                                    <h1 class="w-56">Dhaka,Bangladesh</h1>
-                                </div>
-                            </div>
-                            <div class="flex justify-center text-aling">
-                                <div>
-                                    <a href="https://www.facebook.com/ashik.m.9083?mibextid=ZbWKwL "><img
-                                            class="w-13 rounded-full" src="facebook.png" alt="" srcset=""></a>
-                                </div>
-                                <div>
-                                    <a href="http://"><img class="w-19 rounded-full" src="x.jpg" alt="" srcset=""></a>
-                                </div>
-                                <div>
-                                    <a href="http://"><img class="w-13 rounded-full" src="linkind.jpg" alt=""
-                                            srcset=""></a>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
+        <div class="shadow-xl bg-white  mt-5  ">
+            <div class="hero ">
+                <div class="hero-content  flex-col lg:flex-row-reverse">
+                    <div class="text-center lg:text-left">
+                        <h1 class="md:text-xl lg:text-5xl font-bold">University of Toronto!</h1>
+                        <p>Student <span class="button-bg"> Jan 1016 - Dec 2021</span></p>
 
+                    </div>
+                    <div class="card bg-ye w-2/3 ">
+                        <div class="card-body">
+                            <h1 class="md:text-xl lg:text-3xl">
+                                Certificate of web training
+                            </h1>
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Amet dapibus nibh ut
+                                faucibus nunc, egestas id
+                                amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere
+                                fusce tempus etiam et
+                                pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet,
+                                consectetur adipiscing
+                                elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar
+                                quisque sed amet, nulla
+                                nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
+                                risus enim neque eget dui.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="shadow-xl mt-6  bg-white">
+            <div class="hero ">
+                <div class="hero-content flex-col  lg:flex-row-reverse">
+                    <div class="text-center lg:text-left">
+                        <h1 class="md:text-xl lg:text-5xl font-bold">University of Toronto!</h1>
+                        <p>Student <span class="button-bg"> Jan 1016 - Dec 2021</span></p>
+
+                    </div>
+                    <div class="card  w-2/3 ">
+                        <div class="card-body ">
+                            <h1 class="md:text-xl lg:text-3xl">
+                                Certificate of web training
+                            </h1>
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Amet dapibus nibh ut
+                                faucibus nunc, egestas id
+                                amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere
+                                fusce tempus etiam et
+                                pellentesque. Molestie risus enim neque eget dui.Lorem ipsum dolor sit amet,
+                                consectetur adipiscing
+                                elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar
+                                quisque sed amet, nulla
+                                nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie
+                                risus enim neque eget dui.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="p-6  ">
+        <div class="md:text-aling">
+            <h1 class="lg:text-6xl md:text-xl mb-6">PORTFOLIO</h1>
+            <P class="text-gray-400 mb-6">Here are some of the selected projects that showcase my passion for
+                front-end
+                development.</P>
+        </div>
+
+        <div class="grid grid-cols-1 justify-center md:gap-5  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <!-- 20 image blocks -->
+            <div class="w-full md:w-10/12 aspect-square overflow-hidden rounded-md">
+                <img src="1.jpeg" alt="Image 1" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="2.jpg" alt="Image 2" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="3.jpeg" alt="Image 3" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="4.jpg" alt="Image 4" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="5.webp" alt="Image 5" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="6.jpg" alt="Image 6" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="7.png" alt="Image 7" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="10.png" alt="Image 8" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="12.avif" alt="Image 9" class="lg:w-full lg:h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="14.jpg" alt="Image 10" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="17.png" alt="Image 11" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="16.png" alt="Image 12" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="19.webp" alt="Image 13" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="18.png" alt="Image 14" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="20.jpg" alt="Image 15" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="5.webp" alt="Image 16" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="8.jpeg" alt="Image 17" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="9.jpeg" alt="Image 18" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="21.jpg" alt="Image 19" class="w-full h-full object-cover" />
+            </div>
+            <div class="w-full aspect-square overflow-hidden rounded-md">
+                <img src="11.jpg" alt="Image 20" class="w-full h-full object-cover" />
+            </div>
+        </div>
+
+
+    </section>
+    <section class="  min-h-screen flex flex-col justify-center  bg-gray-200 p-6 ">
+
+        <div class=" ">
+            <h2 class="lg:text-6xl mb-6">
+                BLOG
+            </h2>
+            <P class="mb-6">
+                Here are some of the selected projects that showcase my passion for front-end development.
+
+            </P>
+
+            <div class="grid grid-cols-1  md:grid-cols-3 gap-6">
+
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="13.jpeg" alt="Card image 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2">How to make web tempates</h2>
+                        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                            nulla diam in ac dictum a urna </p>
+                        <a href="#" class="text-blue-500 hover:underline">view →</a>
+                    </div>
                 </div>
 
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="7.png" alt="Card image 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2">How to make web tempates</h2>
+                        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                            nulla diam in ac dictum a urna .</p>
+                        <a href="#" class="text-blue-500 hover:underline">view →</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="18.png" alt="Card image 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2">How to make web tempates</h2>
+                        <p class="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+                            nulla diam in ac dictum a urna </p>
+                        <a href="#" class="text-blue-500 hover:underline">view →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 
-            </section>
+    </section>
+    <section class=" flex flex-col justify-center min-h-screen m-5">
+        <h1 class="text-2xl lg:text-6xl">ABOUT ME </h1>
+        <div class="text-aling flex ">
+            <div class="">
+                <p class=" text-center text-3xl mb-6">I am a front-end developer based in Sydney. Has Mechanical
+                    Engineering
+                    background.
+                </p>
+                <p class="text-center  text-gray-400">I am a front-end developer based in Sydney looking for exciting
+                    opportunities. Has Mechanical Engineering
+                    background. Likes to focus on accessibility when developing. Passionate and curious about
+                    solving problems.
+                    Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I
+                    enjoy playing
+                    football, photography and playing Valorant. Learning more to improve skill.</p>
+            </div>
 
-            <section>
-                <footer class="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
-                    <aside>
-                        <p>Copyright © 21 septembor 2025 - All right reserved by ACME Industries Ltd</p>
-                    </aside>
-                </footer>
-            </section>
-        </section>
-    </body>
+
+
+
+            <div>
+                <img class="rounded-xl " src="profile.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class=" bg-base-200 p-5">
+            <div class=" flex flex-col justify-center lg:flex-row md:gap-10 text-aling">
+                <img src="footer.png" class="  rounded-lg shadow-2xl" />
+                <div class="">
+                    <h1 class="lg:text-5xl font-bold">LET'S CONNECT!</h1>
+                    <p class="py-6">
+                        say hello at foysalmiah8443@gmail.com <br>
+                        For more info, here's my resume
+                    </p>
+
+                    <div class="flex justify-center gap-5 mb-5">
+                        <div>
+                            <img class="w-10 rounded-full" src="cartoon-phone-icon-download_2690093.png!w700wp" alt=""
+                                srcset="">
+                        </div>
+                        <div><input class="lg:w-56 rounded-xl h-10" type="text"></div>
+                    </div>
+                    <div class="flex justify-center gap-5">
+                        <div>
+                            <img class="w-13 rounded-full" src="images.png" alt="" srcset="">
+                        </div>
+                        <div>
+                            <h1 class="w-56">Dhaka,Bangladesh</h1>
+                        </div>
+                    </div>
+                    <div class="flex justify-center text-aling">
+                        <div>
+                            <a href="https://www.facebook.com/ashik.m.9083?mibextid=ZbWKwL "><img
+                                    class="w-13 rounded-full" src="facebook.png" alt="" srcset=""></a>
+                        </div>
+                        <div>
+                            <a href="http://"><img class="w-19 rounded-full" src="x.jpg" alt="" srcset=""></a>
+                        </div>
+                        <div>
+                            <a href="http://"><img class="w-13 rounded-full" src="linkind.jpg" alt="" srcset=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        </div>
+
+
+
+    </section>
+
+    <section>
+        <footer class="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+            <aside>
+                <p>Copyright © 21 septembor 2025 - All right reserved by ACME Industries Ltd</p>
+            </aside>
+        </footer>
+    </section>
+    </section>
+</body>
 
 </html>
